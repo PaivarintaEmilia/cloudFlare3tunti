@@ -1,6 +1,12 @@
 name = "cloudflare3tunti"
-main = "src/index.ts"
 compatibility_date = "2024-11-10"
+main = "src/index.ts"
+minify = true
+
+# wrangler.toml (wrangler v3.79.0^)
+[observability]
+enabled = true
+head_sampling_rate = 1
 
 # compatibility_flags = [ "nodejs_compat" ]
 
